@@ -1,0 +1,11 @@
+name : learning_gradients
+dependencies :
+  - python
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytorch
+  - ipykernel
+  - jupyter
+  - tqdm
