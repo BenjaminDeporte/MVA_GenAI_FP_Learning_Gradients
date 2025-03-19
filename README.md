@@ -26,23 +26,7 @@ conda env create -f environment.yml
 conda activate learning_gradients
 ```
 
-### Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-```bash
-python start.py
-```
-
-## Running Tests
-Test algorithms:
-```bash
-python -m test.tests_algos
-```
-
-Test Kernels
-```bash
-python -m test.tests_kernels
-```
+### Install ipykernel
+'''bash
+conda activate learning_gradients
+python -m ipykernel install --user --name learning_gradients
